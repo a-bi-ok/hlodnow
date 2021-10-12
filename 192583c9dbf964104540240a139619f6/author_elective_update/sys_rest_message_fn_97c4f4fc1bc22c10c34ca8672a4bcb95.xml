@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>metals-API [ Default GET ]</qualified_name>
+        <rest_endpoint>https://metals-api.com/api/timeseries?access_key=52i006l53619r1klkernw0uhu38mhddg99y6qf4w26u4rfs4u9n9c5zxgvng&amp;start_date=2012-05-01&amp;end_date=2012-05-25</rest_endpoint>
+        <rest_message display_value="metals-API">a544fc7c1bc22c10c34ca8672a4bcb52</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-29 01:12:28</sys_created_on>
+        <sys_id>97c4f4fc1bc22c10c34ca8672a4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_97c4f4fc1bc22c10c34ca8672a4bcb95</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 01:12:28</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>sys_rest_message_fn_97c4f4fc1bc22c10c34ca8672a4bcb95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>metals-API [ Default GET ]</qualified_name><rest_endpoint>https://metals-api.com/api/timeseries?access_key=52i006l53619r1klkernw0uhu38mhddg99y6qf4w26u4rfs4u9n9c5zxgvng&amp;start_date=2012-05-01&amp;end_date=2012-05-25</rest_endpoint><rest_message display_value="metals-API">a544fc7c1bc22c10c34ca8672a4bcb52</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-01-29 01:12:28</sys_created_on><sys_id>97c4f4fc1bc22c10c34ca8672a4bcb95</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>sys_rest_message_fn_97c4f4fc1bc22c10c34ca8672a4bcb95</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-01-29 01:12:28</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-262154515</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-29 01:12:28</sys_created_on>
+        <sys_id>9fc4f4fc1bc22c10c34ca8672a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774bb2dc1a0000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 01:12:28</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>97c4f4fcc5c22c10110acf1527b62f96</update_guid>
+        <update_guid_history>97c4f4fcc5c22c10110acf1527b62f96:-262154515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-29 01:16:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>1e1eef63f179450a9c8b008f5b7e5084</sys_id>
+        <sys_metadata>97c4f4fc1bc22c10c34ca8672a4bcb95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent display_value="">a544fc7c1bc22c10c34ca8672a4bcb52</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_97c4f4fc1bc22c10c34ca8672a4bcb95</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_97c4f4fc1bc22c10c34ca8672a4bcb95">9fc4f4fc1bc22c10c34ca8672a4bcb96</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 01:16:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

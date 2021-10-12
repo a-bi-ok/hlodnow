@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="exceljs.js">d698a95f1bc26050c34ca8672a4bcb43</sp_dependency>
+        <sp_widget display_value="HLODR REST API">fa272a7e1bf52810c34ca8672a4bcb0c</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 23:24:02</sys_created_on>
+        <sys_id>34b8e95f1bc26050c34ca8672a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exceljs.js.HLODR REST API</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_34b8e95f1bc26050c34ca8672a4bcb5d</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 23:24:02</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>m2m_sp_widget_dependency_34b8e95f1bc26050c34ca8672a4bcb5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="exceljs.js">d698a95f1bc26050c34ca8672a4bcb43</sp_dependency><sp_widget display_value="HLODR REST API">fa272a7e1bf52810c34ca8672a4bcb0c</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-05 23:24:02</sys_created_on><sys_id>34b8e95f1bc26050c34ca8672a4bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>exceljs.js.HLODR REST API</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>m2m_sp_widget_dependency_34b8e95f1bc26050c34ca8672a4bcb5d</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-05 23:24:02</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>583065186</payload_hash>
+        <record_name>exceljs.js.HLODR REST API</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 23:24:02</sys_created_on>
+        <sys_id>34b8e95f1bc26050c34ca8672a4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1777482733d0000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 23:24:02</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>3cb8e95f11c260501bca5a76a24c6a5e</update_guid>
+        <update_guid_history>3cb8e95f11c260501bca5a76a24c6a5e:583065186</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="exceljs.js.HLODR REST API">6ecba5df1bc26050c34ca8672a4bcbfb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 23:37:32</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>0f7b1a864e0e48cf88ed2a4fa1f974b1</sys_id>
+        <sys_metadata>34b8e95f1bc26050c34ca8672a4bcb5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exceljs.js.HLODR REST API</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_34b8e95f1bc26050c34ca8672a4bcb5d</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_34b8e95f1bc26050c34ca8672a4bcb5d">34b8e95f1bc26050c34ca8672a4bcb5f</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 23:37:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

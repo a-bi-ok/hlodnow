@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>deleteAllHlodings</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var grTestData = new GlideRecord('x_boalh_hloder_hloding');
+grTestData.query();
+while(grTestData.next()){
+	grTestData.deleteRecord();
+}
+
+
+
+
+
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-23 16:45:54</sys_created_on>
+        <sys_id>8fb05d4bdbb120104540240a1396195f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>deleteAllHlodings</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_script_fix_8fb05d4bdbb120104540240a1396195f</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-23 16:52:36</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

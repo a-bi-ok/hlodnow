@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="DELETE">
+        <name>file_type</name>
+        <order>300</order>
+        <rest_message_function display_value="getFREDseries">4cfea35c1b4ae810c34ca8672a4bcbab</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-28 01:43:27</sys_created_on>
+        <sys_id>6f22bf9c1b4ae810c34ca8672a4bcbeb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>file_type</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_6f22bf9c1b4ae810c34ca8672a4bcbeb</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 02:30:19</sys_updated_on>
+        <value>csv</value>
+    </sys_rest_message_fn_param_defs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>sys_rest_message_fn_param_defs_6f22bf9c1b4ae810c34ca8672a4bcbeb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>file_type</name><order>300</order><rest_message_function display_value="getFREDseries">4cfea35c1b4ae810c34ca8672a4bcbab</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-01-28 01:43:27</sys_created_on><sys_id>6f22bf9c1b4ae810c34ca8672a4bcbeb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>file_type</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_6f22bf9c1b4ae810c34ca8672a4bcbeb</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-01-29 02:30:19</sys_updated_on><value>csv</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+        <payload_hash>996088375</payload_hash>
+        <record_name>file_type</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-29 02:30:19</sys_created_on>
+        <sys_id>e79689381b062c10c34ca8672a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774bfa216c0000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 02:30:19</sys_updated_on>
+        <type>HTTP Query Parameters</type>
+        <update_guid>af968938dd062c103cb9ddd6e597ec70</update_guid>
+        <update_guid_history>af968938dd062c103cb9ddd6e597ec70:996088375,c604c1f4c1062c10456f93d37372b843:-465476903,1342bf9c6a4ae8107cc762ab486831f0:1287492648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-29 02:30:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_param_defs">sys_rest_message_fn_param_defs</sys_db_object>
+        <sys_id>067f099fa6604c04b0d858ff61672b90</sys_id>
+        <sys_metadata>6f22bf9c1b4ae810c34ca8672a4bcbeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>file_type</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent display_value="getFREDseries">4cfea35c1b4ae810c34ca8672a4bcbab</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_param_defs_6f22bf9c1b4ae810c34ca8672a4bcbeb</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_param_defs_6f22bf9c1b4ae810c34ca8672a4bcbeb">e79689381b062c10c34ca8672a4bcb71</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 02:30:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

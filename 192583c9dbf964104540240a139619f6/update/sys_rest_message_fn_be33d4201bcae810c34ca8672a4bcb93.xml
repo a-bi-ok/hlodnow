@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>getDIGITALCURRENCYWEEKLY</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Alpha Vantage [ getDIGITALCURRENCYWEEKLY ]</qualified_name>
+        <rest_endpoint>https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_WEEKLY&amp;symbol=${symbol}&amp;market=USD&amp;apikey=1SZIAYHD9P5X4P84&amp;datatype=json</rest_endpoint>
+        <rest_message display_value="Alpha Vantage">dc6fa75c1b4ae810c34ca8672a4bcb14</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-28 04:07:55</sys_created_on>
+        <sys_id>be33d4201bcae810c34ca8672a4bcb93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>getDIGITALCURRENCYWEEKLY</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_be33d4201bcae810c34ca8672a4bcb93</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 00:45:49</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

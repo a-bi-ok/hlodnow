@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>function</name>
+        <rest_message_function display_value="getTIMESERIESINTRADAYEXTENDED">272833901b8ae810c34ca8672a4bcb57</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-28 16:26:21</sys_created_on>
+        <sys_id>2c5cf6e01b022c10c34ca8672a4bcbf8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>function</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_2c5cf6e01b022c10c34ca8672a4bcbf8</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-28 16:27:14</sys_updated_on>
+        <type>string</type>
+        <value>TIME_SERIES_INTRADAY_EXTENDED</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

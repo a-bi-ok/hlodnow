@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="HLODN" max_length="40" name="x_boalh_hloder_hloding" sizeclass="1074" type="collection">
+        <element label="ask" max_length="40" name="ask" type="string"/>
+        <element label="Base Volume" max_length="40" name="base_volume" type="string"/>
+        <element label="bid" max_length="40" name="bid" type="string"/>
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var change = &quot;&quot;;&#13;&#10;&#9;&#13;&#10;&#9;var p1 = parseFloat(current.prevday);&#13;&#10;&#9;var p2 = parseFloat(current.bid);&#13;&#10;&#9;&#13;&#10;&#9;change = 100 * (p2 - p1) / p1;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return change;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="24h Change" max_length="40" name="change" type="percent_complete" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var coin = '';&#13;&#10;&#9;var market = current.marketname.name;&#13;&#10;&#9;&#13;&#10;&#9;coin = market.substring(market.indexOf(&quot;-&quot;)+1, market.length);&#13;&#10;&#9;&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return coin;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Coin" max_length="40" name="coin" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var currency = '';&#13;&#10;&#9;var marketname = current.marketname.name;&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;currency = marketname.substring(0, marketname.indexOf(&quot;-&quot;));&#13;&#10;&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return currency;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Currency" max_length="40" name="currency" type="string" virtual="true"/>
+        <element label="high" max_length="40" name="high" type="string"/>
+        <element label="last" max_length="40" name="last" type="string"/>
+        <element label="low" max_length="40" name="low" type="string"/>
+        <element label="Market Name" max_length="40" name="marketname" reference="x_boalh_hloder_market" type="reference"/>
+        <element label="message" max_length="40" name="message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="OpenBuyOrders" max_length="40" name="openbuyorders" type="string"/>
+        <element label="OpenSellOrders" max_length="40" name="opensellorders" type="string"/>
+        <element label="PrevDay" max_length="40" name="prevday" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;var spread ='';&#13;&#10;&#9;&#13;&#10;&#9;var bid = current.bid;&#13;&#10;&#9;var ask = current.ask;&#13;&#10;&#9;&#13;&#10;&#9;spread = ((parseFloat(ask) - parseFloat(bid))/parseFloat(ask))*100;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return spread.toFixed(2);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Spread" max_length="40" name="spread" type="percent_complete" virtual="true"/>
+        <element label="Success" max_length="40" name="success" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="timestamp" max_length="40" name="timestamp" type="string"/>
+        <element label="Volume" max_length="40" name="volume" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

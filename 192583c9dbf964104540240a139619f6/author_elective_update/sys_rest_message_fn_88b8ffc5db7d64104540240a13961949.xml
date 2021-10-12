@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>HLOD Asset Base [ Default GET ]</qualified_name>
+        <rest_endpoint>https://api.coinbase.com/v2/</rest_endpoint>
+        <rest_message display_value="HLOD Asset Base">e1f7ffc5db7d64104540240a1396193c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-17 23:51:05</sys_created_on>
+        <sys_id>88b8ffc5db7d64104540240a13961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="HLODIT" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODIT">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_88b8ffc5db7d64104540240a13961949</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-17 23:51:05</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>sys_rest_message_fn_88b8ffc5db7d64104540240a13961949</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>HLOD Asset Base [ Default GET ]</qualified_name><rest_endpoint>https://api.coinbase.com/v2/</rest_endpoint><rest_message display_value="HLOD Asset Base">e1f7ffc5db7d64104540240a1396193c</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-01-17 23:51:05</sys_created_on><sys_id>88b8ffc5db7d64104540240a13961949</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="HLODIT" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODIT">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>sys_rest_message_fn_88b8ffc5db7d64104540240a13961949</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-01-17 23:51:05</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>32863763</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-17 23:51:05</sys_created_on>
+        <sys_id>84b87709db7d64104540240a139619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17712c265e60000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-17 23:51:05</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>8cb87709767d64100422f0ee03a1a5a8</update_guid>
+        <update_guid_history>8cb87709767d64100422f0ee03a1a5a8:32863763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-20 01:46:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>453234bd241744989c2518701491ef10</sys_id>
+        <sys_metadata>88b8ffc5db7d64104540240a13961949</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_88b8ffc5db7d64104540240a13961949</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_88b8ffc5db7d64104540240a13961949">84b87709db7d64104540240a139619a9</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-20 01:46:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
