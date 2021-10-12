@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="xlsx">e0801b731bc6a050c34ca8672a4bcb4b</sp_dependency>
+        <sp_widget display_value="HLODR REST API">fa272a7e1bf52810c34ca8672a4bcb0c</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-08 01:42:49</sys_created_on>
+        <sys_id>1dab5cc41b5aa050c34ca8672a4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>xlsx.HLODR REST API</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_1dab5cc41b5aa050c34ca8672a4bcbbd</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-08 01:42:49</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

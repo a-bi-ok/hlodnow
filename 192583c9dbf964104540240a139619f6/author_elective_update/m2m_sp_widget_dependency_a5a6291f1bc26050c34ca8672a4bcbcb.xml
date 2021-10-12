@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="moment-timezone-with-data-2010-2020-v0.5">db6689c1cb11120000f8d856634c9c3b</sp_dependency>
+        <sp_widget display_value="HLODR REST API">fa272a7e1bf52810c34ca8672a4bcb0c</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 23:15:18</sys_created_on>
+        <sys_id>a5a6291f1bc26050c34ca8672a4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>moment-timezone-with-data-2010-2020-v0.5.HLODR REST API</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_a5a6291f1bc26050c34ca8672a4bcbcb</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 23:15:18</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>m2m_sp_widget_dependency_a5a6291f1bc26050c34ca8672a4bcbcb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="moment-timezone-with-data-2010-2020-v0.5">db6689c1cb11120000f8d856634c9c3b</sp_dependency><sp_widget display_value="HLODR REST API">fa272a7e1bf52810c34ca8672a4bcb0c</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-05 23:15:18</sys_created_on><sys_id>a5a6291f1bc26050c34ca8672a4bcbcb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>moment-timezone-with-data-2010-2020-v0.5.HLODR REST API</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>m2m_sp_widget_dependency_a5a6291f1bc26050c34ca8672a4bcbcb</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-05 23:15:18</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>648749786</payload_hash>
+        <record_name>moment-timezone-with-data-2010-2020-v0.5.HLODR REST API</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 23:15:18</sys_created_on>
+        <sys_id>7cb6291f1bc26050c34ca8672a4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177747a741d0000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 23:15:18</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>74b6291f27c260506185a9581367c885</update_guid>
+        <update_guid_history>74b6291f27c260506185a9581367c885:648749786</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="moment-timezone-with-data-2010-2020-v0.5.HLODR REST API">42c8e95f1bc26050c34ca8672a4bcb57</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 23:24:23</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>2a86bf55d680418fac172d24836120d1</sys_id>
+        <sys_metadata>a5a6291f1bc26050c34ca8672a4bcbcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>moment-timezone-with-data-2010-2020-v0.5.HLODR REST API</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_a5a6291f1bc26050c34ca8672a4bcbcb</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_a5a6291f1bc26050c34ca8672a4bcbcb">7cb6291f1bc26050c34ca8672a4bcb85</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 23:24:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

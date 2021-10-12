@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>HLODR User</name>
+        <password>8VqW4efQmI+2BRZ1/ZSCQA==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-29 20:19:01</sys_created_on>
+        <sys_id>460bfc411b0e2c10c34ca8672a4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HLODR User</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_460bfc411b0e2c10c34ca8672a4bcb40</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 20:19:01</sys_updated_on>
+        <username>abiok1020</username>
+    </sys_auth_profile_basic>
+</record_update>

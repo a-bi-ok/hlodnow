@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>advance-bootstrapping - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="a_b">42ddc44e1b907410c34ca8672a4bcb07</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-05-24 16:54:18</sys_created_on>
+        <sys_id>ec3b900e1bd07410c34ca8672a4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>advance-bootstrapping - Container 1</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sp_container_ec3b900e1bd07410c34ca8672a4bcbe6</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-05-24 16:54:18</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

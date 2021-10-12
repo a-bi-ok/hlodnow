@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="DELETE">
+        <display_name>example-include-1.js</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 02:29:56</sys_created_on>
+        <sys_id>5af25a171b466050c34ca8672a4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>example-include-1.js</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_ui_script display_value="example-include-1">3b1e4e531b466050c34ca8672a4bcb15</sys_ui_script>
+        <sys_update_name>sp_js_include_5af25a171b466050c34ca8672a4bcbf6</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 02:29:56</sys_updated_on>
+        <url/>
+    </sp_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>sp_js_include_5af25a171b466050c34ca8672a4bcbf6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>example-include-1.js</display_name><source>local</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-06 02:29:56</sys_created_on><sys_id>5af25a171b466050c34ca8672a4bcbf6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>example-include-1.js</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_ui_script display_value="example-include-1">3b1e4e531b466050c34ca8672a4bcb15</sys_ui_script><sys_update_name>sp_js_include_5af25a171b466050c34ca8672a4bcbf6</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-06 02:29:56</sys_updated_on><url/></sp_js_include></record_update>]]></payload>
+        <payload_hash>-1830132178</payload_hash>
+        <record_name>example-include-1.js</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 02:29:56</sys_created_on>
+        <sys_id>4c435a171b466050c34ca8672a4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177752ca6d80000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 02:29:56</sys_updated_on>
+        <type>JS Include</type>
+        <update_guid>44435a17ec4660506275fd027baf32f5</update_guid>
+        <update_guid_history>44435a17ec4660506275fd027baf32f5:-1830132178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="example-include-1.js">c519121b1b466050c34ca8672a4bcbff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 02:55:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_js_include">sp_js_include</sys_db_object>
+        <sys_id>4cddda1159d54bbcb2a4fb4325d36e51</sys_id>
+        <sys_metadata>5af25a171b466050c34ca8672a4bcbf6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>example-include-1.js</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>sp_js_include_5af25a171b466050c34ca8672a4bcbf6</sys_update_name>
+        <sys_update_version display_value="sp_js_include_5af25a171b466050c34ca8672a4bcbf6">4c435a171b466050c34ca8672a4bcbf5</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 02:55:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

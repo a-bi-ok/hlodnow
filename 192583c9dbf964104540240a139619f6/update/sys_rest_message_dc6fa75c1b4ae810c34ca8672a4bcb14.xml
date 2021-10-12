@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>API Parameters&#13;
+❚ Required: function&#13;
+The time series of your choice. In this case, function=TIME_SERIES_INTRADAY_EXTENDED&#13;
+&#13;
+❚ Required: symbol&#13;
+The name of the equity of your choice. For example: symbol=IBM&#13;
+&#13;
+❚ Required: interval&#13;
+Time interval between two consecutive data points in the time series. The following values are supported: 1min, 5min, 15min, 30min, 60min&#13;
+&#13;
+❚ Required: slice&#13;
+Two years of minute-level intraday data contains over 2 million data points, which can take up to Gigabytes of memory. To ensure optimal API response speed, the trailing 2 years of intraday data is evenly divided into 24 "slices" - year1month1, year1month2, year1month3, ..., year1month11, year1month12, year2month1, year2month2, year2month3, ..., year2month11, year2month12. Each slice is a 30-day window, with year1month1 being the most recent and year2month12 being the farthest from today. By default, slice=year1month1.&#13;
+&#13;
+&#13;
+Fundamental Data&#13;
+OVERVIEW&#13;
+INCOME_STATEMENT&#13;
+BALANCE_SHEET&#13;
+CASH_FLOW&#13;
+EARNINGS&#13;
+LISTING_STATUS&#13;
+EARNINGS&#13;
+IPO_CALENDAR&#13;
+&#13;
+&#13;
+Technical Indicators&#13;
+SMA High Usage&#13;
+EMA High Usage&#13;
+WMA&#13;
+DEMA&#13;
+TEMA&#13;
+TRIMA&#13;
+KAMA&#13;
+MAMA&#13;
+VWAP High Usage&#13;
+T3&#13;
+MACD High Usage&#13;
+MACDEXT&#13;
+STOCH High Usage&#13;
+STOCHF&#13;
+RSI High Usage&#13;
+STOCHRSI&#13;
+WILLR&#13;
+ADX High Usage&#13;
+ADXR&#13;
+APO&#13;
+PPO&#13;
+MOM&#13;
+BOP&#13;
+CCI High Usage&#13;
+CMO&#13;
+ROC&#13;
+ROCR&#13;
+AROON High Usage&#13;
+AROONOSC&#13;
+MFI&#13;
+TRIX&#13;
+ULTOSC&#13;
+DX&#13;
+MINUS_DI&#13;
+PLUS_DI&#13;
+MINUS_DM&#13;
+PLUS_DM&#13;
+BBANDS High Usage&#13;
+MIDPOINT&#13;
+MIDPRICE&#13;
+SAR&#13;
+TRANGE&#13;
+ATR&#13;
+NATR&#13;
+AD High Usage&#13;
+ADOSC&#13;
+OBV High Usage&#13;
+HT_TRENDLINE&#13;
+HT_SINE&#13;
+HT_TRENDMODE&#13;
+HT_DCPERIOD&#13;
+HT_DCPHASE&#13;
+HT_PHASOR</description>
+        <name>Alpha Vantage</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://www.alphavantage.co/query</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-28 01:30:41</sys_created_on>
+        <sys_id>dc6fa75c1b4ae810c34ca8672a4bcb14</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Alpha Vantage</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_dc6fa75c1b4ae810c34ca8672a4bcb14</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-28 23:21:26</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

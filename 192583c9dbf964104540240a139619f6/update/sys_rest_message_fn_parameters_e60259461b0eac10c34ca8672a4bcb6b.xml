@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>redirect_uri</name>
+        <rest_message_function display_value="POST Access Token">ccdfc5061b0eac10c34ca8672a4bcb36</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-02 00:32:38</sys_created_on>
+        <sys_id>e60259461b0eac10c34ca8672a4bcb6b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>redirect_uri</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_e60259461b0eac10c34ca8672a4bcb6b</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-02 01:10:48</sys_updated_on>
+        <type>string</type>
+        <value>https://127.0.0.1</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="DELETE">
+        <name>cfi.style.guide.css</name>
+        <source>local</source>
+        <sp_css/>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-07 16:20:39</sys_created_on>
+        <sys_id>75ca5e771b46a050c34ca8672a4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cfi.style.guide.css</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sp_css_include_75ca5e771b46a050c34ca8672a4bcb95</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-07 16:20:39</sys_updated_on>
+        <url/>
+    </sp_css_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>sp_css_include_75ca5e771b46a050c34ca8672a4bcb95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>cfi.style.guide.css</name><source>local</source><sp_css/><sys_class_name>sp_css_include</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-07 16:20:39</sys_created_on><sys_id>75ca5e771b46a050c34ca8672a4bcb95</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cfi.style.guide.css</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>sp_css_include_75ca5e771b46a050c34ca8672a4bcb95</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-07 16:20:39</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+        <payload_hash>976035254</payload_hash>
+        <record_name>cfi.style.guide.css</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-07 16:20:39</sys_created_on>
+        <sys_id>2efa1e771b46a050c34ca8672a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1777d4b8f6b0000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-07 16:20:39</sys_updated_on>
+        <type>CSS Include</type>
+        <update_guid>26fa1e77f246a050d5013670427904c6</update_guid>
+        <update_guid_history>26fa1e77f246a050d5013670427904c6:976035254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cfi.style.guide.css">940b9e771b46a050c34ca8672a4bcbc0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-07 16:20:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_css_include">sp_css_include</sys_db_object>
+        <sys_id>c2b7b31565bb4a5ca5be3bb88ba841f1</sys_id>
+        <sys_metadata>75ca5e771b46a050c34ca8672a4bcb95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cfi.style.guide.css</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>sp_css_include_75ca5e771b46a050c34ca8672a4bcb95</sys_update_name>
+        <sys_update_version display_value="sp_css_include_75ca5e771b46a050c34ca8672a4bcb95">2efa1e771b46a050c34ca8672a4bcbc6</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-07 16:20:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

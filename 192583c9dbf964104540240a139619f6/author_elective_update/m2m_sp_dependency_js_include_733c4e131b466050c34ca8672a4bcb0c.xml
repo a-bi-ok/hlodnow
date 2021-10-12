@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="exceljs.js">d698a95f1bc26050c34ca8672a4bcb43</sp_dependency>
+        <sp_js_include display_value="exceljs.js">332c8a131b466050c34ca8672a4bcb28</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 01:59:20</sys_created_on>
+        <sys_id>733c4e131b466050c34ca8672a4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exceljs.js.exceljs.js</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_733c4e131b466050c34ca8672a4bcb0c</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 01:59:20</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>m2m_sp_dependency_js_include_733c4e131b466050c34ca8672a4bcb0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="exceljs.js">d698a95f1bc26050c34ca8672a4bcb43</sp_dependency><sp_js_include display_value="exceljs.js">332c8a131b466050c34ca8672a4bcb28</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-06 01:59:20</sys_created_on><sys_id>733c4e131b466050c34ca8672a4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>exceljs.js.exceljs.js</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>m2m_sp_dependency_js_include_733c4e131b466050c34ca8672a4bcb0c</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-06 01:59:20</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>595768675</payload_hash>
+        <record_name>exceljs.js.exceljs.js</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 01:59:20</sys_created_on>
+        <sys_id>7f3c4e131b466050c34ca8672a4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1777510a4350000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 01:59:20</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>773c4e1343466050bd8ccc88fc61a20d</update_guid>
+        <update_guid_history>773c4e1343466050bd8ccc88fc61a20d:595768675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="exceljs.js.exceljs.js">99715ad31b466050c34ca8672a4bcbff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 02:22:06</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>d881665301b746fc863f486254478984</sys_id>
+        <sys_metadata>733c4e131b466050c34ca8672a4bcb0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exceljs.js.exceljs.js</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_733c4e131b466050c34ca8672a4bcb0c</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_733c4e131b466050c34ca8672a4bcb0c">7f3c4e131b466050c34ca8672a4bcb0d</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 02:22:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

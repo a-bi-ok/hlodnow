@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>bf67c70ddbf964104540240a139619bf</applets>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <orientation>horizontal</orientation>
+        <required_roles>security_admin</required_roles>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-17 20:15:55</sys_created_on>
+        <sys_id>0477c70ddbf964104540240a139619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hloding</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_sg_icon_section_0477c70ddbf964104540240a139619e0</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-17 20:15:55</sys_updated_on>
+        <table/>
+        <title>Hloding</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

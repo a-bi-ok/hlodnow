@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope,$http,$rootScope, spUtil) {
+	/* widget controller */
+	var c = this;
+
+	$scope.downloadXLSX= function(){
+		/* original data */
+		var _data = [
+			{"name":"John", "city": "Seattle"},
+			{"name":"Mike", "city": "Los Angeles"},
+			{"name":"Zach", "city": "New York"}, 
+			{"name":"", "city": ""}
+		];
+
+		var json_data=[
+			{"name": "Raja","age": 20},
+			{"name": "Mano","age": 40},
+			{"name": "Tom","age": 40},
+			{"name": "Devi","age": 40},
+			{"name": "Mango","age": 40}
+		];
+
+
+		//	Importing:
+		//aoa_to_sheet converts an array of arrays of JS data to a worksheet.
+		//json_to_sheet converts an array of JS objects to a worksheet.
+		//table_to_sheet converts a DOM TABLE element to a worksheet.
+		//sheet_add_aoa adds an array of arrays of JS data to an existing worksheet.
+		//sheet_add_json adds an array of JS objects to an existing worksheet.
+		
+		
+		/* Initial row */
+		var ws = XLSX.utils.aoa_to_sheet(["SheetJS".split("")]);
+
+		/* Write data starting at A2 */
+		XLSX.utils.sheet_add_aoa(ws, [[1,2], [2,3], [3,4]], {origin: "A2"});
+
+		/* Write data starting at E2 */
+		XLSX.utils.sheet_add_aoa(ws, [[5,6,7], [6,7,8], [7,8,9]], {origin:{r:1, c:4}});
+
+		/* Append row */
+		XLSX.utils.sheet_add_aoa(ws, [[4,5,6,7,8,9,0]], {origin: -1});
+		
+		
+		XLSX.utils.sheet_add_aoa(ws, [[],"SheetJS".split(""),[1,2,3,4,5,6,7],[2,3,4,5,6,7,8]], {origin:-1});
+
+		/* add to workbook */
+		var wb = XLSX.utils.book_new();
+		XLSX.utils.book_append_sheet(wb, ws, "People");
+
+
+		/* generate an XLSX file */
+		XLSX.writeFile(wb, "sheetjs.xlsx");
+
+	}
+
+
+	$scope.spoolMethod = function(){
+		//spUtil.addInfoMessage(_sp);
+
+		//gs.include("lodash");
+		spUtil.addInfoMessage(_.includes([1, 2, 3], 1).toString());
+		// => true 
+
+		spUtil.addInfoMessage(_.includes([1, 2, 3], 1, 2).toString());
+		// => false
+
+		spUtil.addInfoMessage(_.includes({ 'a': 1, 'b': 2 }, 1).toString());
+		// => true
+	}
+
+
+	/***$scope.getCoinRating = function () {
+		return $http({
+			headers: {		
+				'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+				'X-UserToken': window.g_ck
+			},
+			method: 'GET',
+			url: "https://www.alphavantage.co/query?function=CRYPTO_RATING&symbol=BTC&apikey=1SZIAYHD9P5X4P84"
+		}).then(function (response) {
+			$scope.rating = response;
+		});
+	}**/
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>hlodr_rest_api</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>HLODR REST API</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	
+	try { 
+		var r = new sn_ws.RESTMessageV2('x_boalh_hloder.HLODR REST', 'getmarketsummaries');
+		var response = r.execute();
+		var responseBody = JSON.parse(response.getBody());
+		var httpStatus = response.getStatusCode();
+
+		data.responseBody = responseBody;		
+		data.result = responseBody.result;		
+		data.length = responseBody.result.length;
+
+		//gs.addInfoMessage(JSON.stringify(responseBody));
+
+	}
+	catch(ex) {
+		var message = ex.message;
+	}
+
+
+	function getExample(){	
+		var _d = "im done here";
+		return _d;
+	}
+	
+
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-23 04:24:18</sys_created_on>
+        <sys_id>fa272a7e1bf52810c34ca8672a4bcb0c</sys_id>
+        <sys_mod_count>121</sys_mod_count>
+        <sys_name>HLODR REST API</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sp_widget_fa272a7e1bf52810c34ca8672a4bcb0c</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-09 01:53:26</sys_updated_on>
+        <template><![CDATA[<div ng-init="getCoinRating()">  
+ <!-- <pre>{{data.exceljs|json}}</pre>-->
+</div>
+
+<div>
+
+    <button class="cfi-button btn"ng-click="downloadXLSX()">Download</button>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

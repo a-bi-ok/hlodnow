@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Custom Integrations" name="Custom Integrations">0fbb9b8b1b716810c34ca8672a4bcb8b</category>
+        <collection>x_boalh_hloder_hloding</collection>
+        <condition table="x_boalh_hloder_hloding">change&gt;3^ORchange&lt;-3^base_volume&gt;=5^coin=LTC^ORcoin=DOGE^ORcoin=ETH^ORcoin=BTC^ORcoin=ETC^ORcoin=ADA^EQ<item endquery="false" field="change" goto="false" newquery="false" operator="&gt;" or="false" value="3"/>
+            <item endquery="false" field="change" goto="false" newquery="false" operator="&lt;" or="true" value="-3"/>
+            <item endquery="false" field="base_volume" goto="false" newquery="false" operator="&gt;=" or="false" value="5"/>
+            <item endquery="false" field="coin" goto="false" newquery="false" operator="=" or="false" value="LTC"/>
+            <item endquery="false" field="coin" goto="false" newquery="false" operator="=" or="true" value="DOGE"/>
+            <item endquery="false" field="coin" goto="false" newquery="false" operator="=" or="true" value="ETH"/>
+            <item endquery="false" field="coin" goto="false" newquery="false" operator="=" or="true" value="BTC"/>
+            <item endquery="false" field="coin" goto="false" newquery="false" operator="=" or="true" value="ETC"/>
+            <item endquery="false" field="coin" goto="false" newquery="false" operator="=" or="true" value="ADA"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Volume is the amount traded in that altcoin over the past 24 hours.&#13;
+In the case of BTC-DGB, this is the amount of DGB that has been traded in 24 hours.&#13;
+BaseVolume is the total value traded in the base currency, for example Bitcoin.&#13;
+</description>
+        <digest_from/>
+        <digest_html><![CDATA[<p>${marketname} is at ${change}% change.</p>
+<p>Volume: ${volume}</p>
+<p>Bid: ${bid}</p>]]></digest_html>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject>HLODR Digest</digest_subject>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><strong>EMAIL ALERT</strong></p>
+<p>${marketname} is at ${change}% change.<br />Volume: ${volume}<br />Base Volume: ${base_volume} ${currency}<br />Bid: ${bid} ${currency}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HLODN MARKET ALERT</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>5613cd1cdb1810104540240a1396195c</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate><![CDATA[SMS ALERT
+${marketname} is at ${change}% change.
+Volume: ${volume}
+Base Volume: ${base_volume} ${currency}
+Bid: ${bid} ${currency}]]></sms_alternate>
+        <style/>
+        <subject>HLODR MARKET UPDATE</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-23 22:53:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be4362cbdb7520104540240a1396195f</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>HLODN MARKET ALERT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sysevent_email_action_be4362cbdb7520104540240a1396195f</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-05-15 18:42:08</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

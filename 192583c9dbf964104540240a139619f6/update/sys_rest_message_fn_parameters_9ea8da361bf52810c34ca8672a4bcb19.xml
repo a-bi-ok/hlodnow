@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>currency</name>
+        <rest_message_function display_value="getmarketsummary">a918d6361bf52810c34ca8672a4bcb5d</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-23 03:21:34</sys_created_on>
+        <sys_id>9ea8da361bf52810c34ca8672a4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_9ea8da361bf52810c34ca8672a4bcb19</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-23 03:21:34</sys_updated_on>
+        <type>string</type>
+        <value>BTC-ADA</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

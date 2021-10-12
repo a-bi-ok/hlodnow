@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="example-include.js">8a4496571b466050c34ca8672a4bcbf3</sp_dependency>
+        <sp_js_include display_value="example-include-2.js">69585ad71b466050c34ca8672a4bcb95</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 03:07:17</sys_created_on>
+        <sys_id>cfcb5a5b1b466050c34ca8672a4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>example-include.js.example-include-2.js</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_cfcb5a5b1b466050c34ca8672a4bcb25</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 03:07:17</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>m2m_sp_dependency_js_include_cfcb5a5b1b466050c34ca8672a4bcb25</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="example-include.js">8a4496571b466050c34ca8672a4bcbf3</sp_dependency><sp_js_include display_value="example-include-2.js">69585ad71b466050c34ca8672a4bcb95</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-06 03:07:17</sys_created_on><sys_id>cfcb5a5b1b466050c34ca8672a4bcb25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>example-include.js.example-include-2.js</sys_name><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>m2m_sp_dependency_js_include_cfcb5a5b1b466050c34ca8672a4bcb25</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-06 03:07:17</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>1961410173</payload_hash>
+        <record_name>example-include.js.example-include-2.js</record_name>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-06 03:07:17</sys_created_on>
+        <sys_id>cfcb5a5b1b466050c34ca8672a4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177754ed8b40000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-06 03:07:17</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>c7cb5a5b15466050b0f1b30583ed6f27</update_guid>
+        <update_guid_history>c7cb5a5b15466050b0f1b30583ed6f27:1961410173</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="example-include.js.example-include-2.js">85e7d2371b46a050c34ca8672a4bcbac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-07 16:07:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>94438b6fffbe4a73a79233e2e9cceb81</sys_id>
+        <sys_metadata>cfcb5a5b1b466050c34ca8672a4bcb25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>example-include.js.example-include-2.js</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_cfcb5a5b1b466050c34ca8672a4bcb25</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_cfcb5a5b1b466050c34ca8672a4bcb25">cfcb5a5b1b466050c34ca8672a4bcbee</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-07 16:07:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

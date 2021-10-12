@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>getFREDseries</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>FRED [ getFREDseries ]</qualified_name>
+        <rest_endpoint>https://api.stlouisfed.org/fred/series/observations?series_id=${seried_id}&amp;realtime_start=${realtime_start}&amp;realtime_end=${realtime_end}&amp;api_key=4afceef6e75df880c7917082bac07846&amp;file_type=json</rest_endpoint>
+        <rest_message display_value="FRED">80fea35c1b4ae810c34ca8672a4bcbab</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-01-28 01:28:45</sys_created_on>
+        <sys_id>4cfea35c1b4ae810c34ca8672a4bcbab</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>getFREDseries</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_4cfea35c1b4ae810c34ca8672a4bcbab</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-01-29 19:23:31</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

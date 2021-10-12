@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a53791171bc26050c34ca8672a4bcb1d</sp_column>
+        <sp_widget display_value="Global Printer">eaaa061c1b86e810c34ca8672a4bcb93</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 22:07:38</sys_created_on>
+        <sys_id>ad3791171bc26050c34ca8672a4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sp_instance_ad3791171bc26050c34ca8672a4bcb1f</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 22:07:38</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=ad3791171bc26050c34ca8672a4bcb1f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HLODR">192583c9dbf964104540240a139619f6</application>
+        <file_path/>
+        <instance_id>a4d24a89db3cff800ae3ac44d4961957</instance_id>
+        <instance_name>boozallendemo6</instance_name>
+        <name>sp_instance_ad3791171bc26050c34ca8672a4bcb1f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">a53791171bc26050c34ca8672a4bcb1d</sp_column><sp_widget display_value="Global Printer">eaaa061c1b86e810c34ca8672a4bcb93</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>Tim.Abiok</sys_created_by><sys_created_on>2021-02-05 22:07:38</sys_created_on><sys_id>ad3791171bc26050c34ca8672a4bcb1f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package><sys_policy/><sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope><sys_update_name>sp_instance_ad3791171bc26050c34ca8672a4bcb1f</sys_update_name><sys_updated_by>Tim.Abiok</sys_updated_by><sys_updated_on>2021-02-05 22:07:38</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=ad3791171bc26050c34ca8672a4bcb1f"/></record_update>]]></payload>
+        <payload_hash>929075523</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>992583c9dbf964104540240a139619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 22:07:38</sys_created_on>
+        <sys_id>e53791171bc26050c34ca8672a4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177743c822c0000001</sys_recorded_at>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 22:07:38</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ed37911739c26050bb7616897873dc21</update_guid>
+        <update_guid_history>ed37911739c26050bb7616897873dc21:929075523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ee8755171bc26050c34ca8672a4bcb5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-05 22:09:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0bb8800eb6734284811beab5c9b6bfe4</sys_id>
+        <sys_metadata>ad3791171bc26050c34ca8672a4bcb1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_scope_delete display_value="">1aec6ce10d9b4fb4a6338e60928f4271</sys_scope_delete>
+        <sys_update_name>sp_instance_ad3791171bc26050c34ca8672a4bcb1f</sys_update_name>
+        <sys_update_version display_value="sp_instance_ad3791171bc26050c34ca8672a4bcb1f">e53791171bc26050c34ca8672a4bcb22</sys_update_version>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-05 22:09:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

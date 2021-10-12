@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>GET quotes</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>SWMR [ GET quotes ]</qualified_name>
+        <rest_endpoint>https://api.tdameritrade.com/v1/marketdata/quotes?apikey=E9BWX1LSHTLM1Y4RZSXMPKL1NSSNZOWI&amp;symbol=${symbols}</rest_endpoint>
+        <rest_message display_value="SWMR">ce1b41821b0eac10c34ca8672a4bcb2b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>Tim.Abiok</sys_created_by>
+        <sys_created_on>2021-02-02 01:33:43</sys_created_on>
+        <sys_id>18bfddca1b0eac10c34ca8672a4bcb27</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GET quotes</sys_name>
+        <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
+        <sys_update_name>sys_rest_message_fn_18bfddca1b0eac10c34ca8672a4bcb27</sys_update_name>
+        <sys_updated_by>Tim.Abiok</sys_updated_by>
+        <sys_updated_on>2021-02-02 01:37:02</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
