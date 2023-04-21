@@ -5,7 +5,7 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <description/>
+        <description>Federal Reserve Economic Data is a database maintained by the Research division of the Federal Reserve Bank of St. Louis that has more than 816,000 economic time series from various sources. </description>
         <name>FRED</name>
         <oauth2_profile/>
         <protocol_name/>
@@ -14,14 +14,14 @@
         <sys_created_by>Tim.Abiok</sys_created_by>
         <sys_created_on>2021-01-28 01:28:45</sys_created_on>
         <sys_id>80fea35c1b4ae810c34ca8672a4bcbab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>FRED</sys_name>
         <sys_package display_value="HLODR" source="x_boalh_hloder">192583c9dbf964104540240a139619f6</sys_package>
         <sys_policy/>
         <sys_scope display_value="HLODR">192583c9dbf964104540240a139619f6</sys_scope>
         <sys_update_name>sys_rest_message_80fea35c1b4ae810c34ca8672a4bcbab</sys_update_name>
-        <sys_updated_by>Tim.Abiok</sys_updated_by>
-        <sys_updated_on>2021-01-28 01:28:45</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 01:55:04</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>
